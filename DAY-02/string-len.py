@@ -1,2 +1,3 @@
 text = "python is gateway to AI/ML world"
-print(len(text))
+length = len(text) 
+print("length of the string:", length) 
