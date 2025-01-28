@@ -28,3 +28,13 @@ print("Port:", port)
 print("Is HTTPS Enabled:", is_https_enabled)
 print("Max Connections:", max_connections)
 
+# Update configuration details
+port = 9090
+is_https_enabled = False
+max_connections = 2000
+
+# Print the updated configuration details
+print("udpated Port:", port)
+print("udpated Is HTTPS Enabled:", is_https_enabled)
+print("udpated Max Connections:", max_connections)
+
