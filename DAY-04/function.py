@@ -13,7 +13,7 @@ def square(x):
 pi = 3.14159265
 
 # Importing Modules
-import my_module
+import my_module # type: ignore
 print(my_module.square(3))
 print(my_module.pi)
 
