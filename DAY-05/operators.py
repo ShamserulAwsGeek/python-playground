@@ -79,4 +79,29 @@ min = a if a < b else b
 print(min)
 max = a if a > b else b
 print(max)
+
+#Operator precedence:
+a = 10
+b = 20
+c = 30
+d = 5
+result = a + b * c / d
+print(result)
+result = (a + b) * c / d
+print(result)
+result = ((a + b) * c) / d
+print(result)
+result = (a + b) * (c / d)
+print(result)
+result = a + (b * c) / d
+print(result)
+result = a + b * (c / d)
+print(result)
+result = a + (b * c) / d
+print(result)
+result = a + b * c // d
+print(result)
+result = a + b * c % d
+print(result)
+
  
