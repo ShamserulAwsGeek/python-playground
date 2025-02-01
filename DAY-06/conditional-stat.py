@@ -38,4 +38,14 @@ elif a == b:
     print("a is equal to b")
 elif a < b:
     print("a is less than b")
-     
+
+# Nested if example:
+a = 10
+if a > 0:
+    if a % 2 == 0:
+        print("a is a positive even number")
+    else:
+        print("a is a positive odd number")
+else:
+    print("a is a negative number")
+    
