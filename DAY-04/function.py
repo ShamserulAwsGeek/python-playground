@@ -59,3 +59,17 @@ add()
 sub()
 mul()
 div()
+
+x = 10
+y = 20
+
+def calc(x, y):
+    add = x + y
+    sub = x - y
+    mul = x * y
+    div = x / y
+add()
+sub()
+mul()
+div()
+
