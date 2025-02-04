@@ -63,7 +63,7 @@ div()
 x = 10
 y = 20
 
-def calc(x, y):
+def calc():
     add = x + y
     sub = x - y
     mul = x * y
