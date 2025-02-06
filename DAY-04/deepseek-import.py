@@ -3,7 +3,8 @@
 > pip install azure-ai-inference
 """
 import os
-from azure.ai.inference import ChatCompletionsClient
+from 
+import ChatCompletionsClient
 from azure.ai.inference.models import SystemMessage
 from azure.ai.inference.models import UserMessage
 from azure.core.credentials import AzureKeyCredential
