@@ -73,3 +73,16 @@ sub()
 mul()
 div()
 
+def greet(name):
+    return f"Hello, {name}!"
+
+message = greet("Alice")
+print(message)
+
+
+def namelist(names):
+     return ", ".join(names)
+message = namelist(["Alice", "Bob", "Charlie"])
+print(message)
+
+
