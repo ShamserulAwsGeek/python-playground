@@ -48,4 +48,40 @@ if a > 0:
         print("a is a positive odd number")
 else:
     print("a is a negative number")
-    
+
+
+# import sys
+# type = sys.argv[1]
+
+# if type == "t2.micro":
+#     print("This is a micro instance")
+# else:
+#     print("This is a small instance")
+
+
+a = 33
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
+
+
+#Nested if example:
+x = 41
+
+if x > 10:
+  print("Above ten,")
+  if x > 20:
+    print("and also above 20!")
+  else:
+    print("but not above 20.")
