@@ -16,128 +16,142 @@
 # 15. Write a Python program where a string will start with a specific number.
 
 
+# import re
+# def check_string(string):
+#     pattern = re.compile(r'[^a-zA-Z0-9.]')
+#     if pattern.search(string):
+#         print("The string contains special characters.")
+#     else:
+#         print("The string does not contain special characters.")
+
+# def match_string(string):
+#     pattern = re.compile(r'ab*')
+#     if pattern.match(string):
+#         print("Matched!")
+#     else:
+#         print("Not matched!")
+
+# def match_string1(string):
+#     pattern = re.compile(r'ab+')
+#     if pattern.match(string):
+#         print("Matched!")
+#     else:
+#         print("Not matched!")
+
+# def match_string2(string):
+#     pattern = re.compile(r'ab?')
+#     if pattern.match(string):
+#         print("Matched!")
+#     else:
+#         print("Not matched!")
+
+# def match_string3(string):
+#     pattern = re.compile(r'ab{3}')
+#     if pattern.match(string):
+#         print("Matched!")
+#     else:
+#         print("Not matched!")
+
+# def match_string4(string):
+#     pattern = re.compile(r'ab{2,3}')
+#     if pattern.match(string):
+#         print("Matched!")
+#     else:
+#         print("Not matched!")
+
+# def match_string5(string):
+#     pattern = re.compile(r'[a-z]+_[a-z]+')
+#     if pattern.match(string):
+#         print("Matched!")
+#     else:
+#         print("Not matched!")
+
+# def match_string6(string):
+#     pattern = re.compile(r'[A-Z][a-z]+')
+#     if pattern.match(string):
+#         print("Matched!")
+#     else:
+#         print("Not matched!")
+
+# def match_string7(string):
+#     pattern = re.compile(r'a.*b$')
+#     if pattern.match(string):
+#         print("Matched!")
+#     else:
+#         print("Not matched!")
+
+# def match_string8(string):
+#     pattern = re.compile(r'^[a-zA-Z]+')
+#     if pattern.match(string):
+#         print("Matched!")
+#     else:
+#         print("Not matched!")
+
+# def match_string9(string):
+#     pattern = re.compile(r'[a-zA-Z]+[.,]?')
+#     if pattern.match(string):
+#         print("Matched!")
+#     else:
+#         print("Not matched!")
+
+# def match_string10(string):
+#     pattern = re.compile(r'\b\w*z\w*\b')
+#     if pattern.match(string):
+#         print("Matched!")
+#     else:
+#         print("Not matched!")
+
+# def match_string11(string):
+#     pattern = re.compile(r'\b\w*z\w*\b')
+#     if pattern.match(string):
+#         print("Matched!")
+#     else:
+#         print("Not matched!")
+
+
+# def match_string12(string):
+#     pattern = re.compile(r'^[a-zA-Z0-9_]*$')
+#     if pattern.match(string):
+#         print("Matched!")
+#     else:
+#         print("Not matched!")
+
+# def match_string13(string):
+#     pattern = re.compile(r'^[0-9]+')
+#     if pattern.match(string):
+#         print("Matched!")
+#     else:
+#         print("Not matched!")
+
+
+# check_string("Hello@123")
+# match_string("ab")
+# match_string1("ab")
+# match_string2("ab")
+# match_string3("abbbb")
+# match_string4("abbb")
+# match_string5("hello_world")
+# match_string6("Hello")
+# match_string7("a123b")
+# match_string8("Hello")
+# match_string9("Hello.")
+# match_string10("Hello")
+# match_string11("Hello")
+# match_string12("Hello_123")
+# match_string13("123Hello")
+
+
+#findall():
 import re
-def check_string(string):
-    pattern = re.compile(r'[^a-zA-Z0-9.]')
-    if pattern.search(string):
-        print("The string contains special characters.")
-    else:
-        print("The string does not contain special characters.")
 
-def match_string(string):
-    pattern = re.compile(r'ab*')
-    if pattern.match(string):
-        print("Matched!")
-    else:
-        print("Not matched!")
+txt = "the rain in Spain"
+x = re.findall("ai", txt )
+print(x)
 
-def match_string1(string):
-    pattern = re.compile(r'ab+')
-    if pattern.match(string):
-        print("Matched!")
-    else:
-        print("Not matched!")
+#return am empty list:
 
-def match_string2(string):
-    pattern = re.compile(r'ab?')
-    if pattern.match(string):
-        print("Matched!")
-    else:
-        print("Not matched!")
+import re
 
-def match_string3(string):
-    pattern = re.compile(r'ab{3}')
-    if pattern.match(string):
-        print("Matched!")
-    else:
-        print("Not matched!")
-
-def match_string4(string):
-    pattern = re.compile(r'ab{2,3}')
-    if pattern.match(string):
-        print("Matched!")
-    else:
-        print("Not matched!")
-
-def match_string5(string):
-    pattern = re.compile(r'[a-z]+_[a-z]+')
-    if pattern.match(string):
-        print("Matched!")
-    else:
-        print("Not matched!")
-
-def match_string6(string):
-    pattern = re.compile(r'[A-Z][a-z]+')
-    if pattern.match(string):
-        print("Matched!")
-    else:
-        print("Not matched!")
-
-def match_string7(string):
-    pattern = re.compile(r'a.*b$')
-    if pattern.match(string):
-        print("Matched!")
-    else:
-        print("Not matched!")
-
-def match_string8(string):
-    pattern = re.compile(r'^[a-zA-Z]+')
-    if pattern.match(string):
-        print("Matched!")
-    else:
-        print("Not matched!")
-
-def match_string9(string):
-    pattern = re.compile(r'[a-zA-Z]+[.,]?')
-    if pattern.match(string):
-        print("Matched!")
-    else:
-        print("Not matched!")
-
-def match_string10(string):
-    pattern = re.compile(r'\b\w*z\w*\b')
-    if pattern.match(string):
-        print("Matched!")
-    else:
-        print("Not matched!")
-
-def match_string11(string):
-    pattern = re.compile(r'\b\w*z\w*\b')
-    if pattern.match(string):
-        print("Matched!")
-    else:
-        print("Not matched!")
-
-
-def match_string12(string):
-    pattern = re.compile(r'^[a-zA-Z0-9_]*$')
-    if pattern.match(string):
-        print("Matched!")
-    else:
-        print("Not matched!")
-
-def match_string13(string):
-    pattern = re.compile(r'^[0-9]+')
-    if pattern.match(string):
-        print("Matched!")
-    else:
-        print("Not matched!")
-
-
-check_string("Hello@123")
-match_string("ab")
-match_string1("ab")
-match_string2("ab")
-match_string3("abbbb")
-match_string4("abbb")
-match_string5("hello_world")
-match_string6("Hello")
-match_string7("a123b")
-match_string8("Hello")
-match_string9("Hello.")
-match_string10("Hello")
-match_string11("Hello")
-match_string12("Hello_123")
-match_string13("123Hello")
-
-  
+txt = "the rain in Spain"
+x = re.findall("Portgul", txt)
+print(x)
