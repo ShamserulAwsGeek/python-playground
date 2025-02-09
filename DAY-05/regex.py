@@ -155,3 +155,33 @@ import re
 txt = "the rain in Spain"
 x = re.findall("Portgul", txt)
 print(x)
+
+#Search function:
+
+import re
+
+txt = "the rain i  Spain"
+x = re.search("\s", txt)
+
+print("the first white-space character is located in position:",x.start())
+
+#spilt:
+import re
+
+txt = "The rain in Spain"
+x = re.split("\s", txt)
+print(x)
+
+
+import re
+
+txt = "The rain in Spain"
+x = re.split("\s", txt, 1)
+print(x)
+
+
+import re
+
+txt = "The rain in Spain"
+x = re.sub("\s", "9", txt)
+print(x)
