@@ -55,3 +55,25 @@ print(f.readline())
 # else:
 #   print("The file does not exist")
 
+
+import sys
+print(sys.version)
+
+
+if 5 > 2:
+ print("Five is greater than two!") 
+if 5 > 2:
+        print("Five is greater than two!") 
+
+#Multiline string:
+"""
+This is a comment
+written in
+more than just one line
+"""
+print("Hello, World!")
+
+
+x = 4       # x is of type int
+x = "Sally" # x is now of type str
+print(type(x))
