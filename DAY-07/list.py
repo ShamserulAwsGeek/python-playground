@@ -60,6 +60,52 @@
 # - input()
 
 
-servers = list(("web-server-01", "db-server-01", "app-server-01"))
-print(servers[0])
-#print(type(servers))
+# servers = list(("web-server-01", "db-server-01", "app-server-01"))
+# print(servers[0])
+# print(type(servers))
+
+# mylist = ["apple", "banana", "cherry"]
+
+# thislist = ["apple", "banana", "cherry"]
+# print(thislist)
+
+# thislist = ["apple", "banana", "cherry", "apple", "cherry"]
+# print(thislist)
+
+# thislist = ["apple", "banana", "cherry"]
+# print(len(thislist))
+
+# list1 = ["abc", 34, True, 40, "male"]
+
+
+# mylist = ["apple", "banana", "cherry"]
+# print(type(mylist))
+
+# thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
+# print(thislist)
+
+# thislist = ["apple", "banana", "cherry"]
+# print(thislist[-3])
+
+
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(thislist[2:5])
+
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(thislist[:4])
+
+# thislist = ["apple", "banana", "cherry"]
+# thislist[1] = "blackcurrant"
+# print(thislist)
+
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
+# thislist[1:3] = ["blackcurrant", "watermelon"]
+# print(thislist)
+
+# thislist = ["apple", "banana", "cherry"]
+# thislist.append("orange")
+# print(thislist)
+
+thislist = ["apple", "banana", "cherry"]
+thislist.insert(1, "orange")
+print(thislist)
