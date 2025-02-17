@@ -97,3 +97,9 @@ myfamily = {
 
 #print(child1, child2,child3)
 print(myfamily)
+
+for x, obj in myfamily.items():
+  print(x)
+
+  for y in obj:
+    print(y + ':', obj[y])
