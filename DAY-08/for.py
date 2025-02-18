@@ -34,7 +34,14 @@
 #    if "ERROR" in line:
 #        print(line)
 
-servers=("server1" "server2" "server3")
-for server in "${servers[@]}": 
-    #configure_monitoring_agent "$server"
-    print(server)
+# servers=("server1" "server2" "server3")
+# for server in "${servers[@]}": 
+#     #configure_monitoring_agent "$server"
+#     print(server)
+
+
+environments=("dev" "staging" "prod")
+for env in "${environments[@]}":
+    print( "env")
+
+
