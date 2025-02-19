@@ -1,9 +1,9 @@
 folder_paths = input("Enter a list of folder paths separated by spaces: ").split()
-#print("folder_paths:",  " "  +   str(folder_paths))
+print("folder_paths:",  " "  +   str(folder_paths))
 
 def main():
     folder_paths = input("Enter a list of folder paths separated by spaces: ").split()
-    #print(folder_paths)
+    print(folder_paths)
 
     #Print elements in the list
     for folder_path in folder_paths:
