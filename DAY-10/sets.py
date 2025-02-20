@@ -12,6 +12,7 @@ difference_set = set1.difference(set2)  # Difference of sets
 is_subset = set1.issubset(set2)  # Checking if set1 is a subset of set2
 is_superset = set1.issuperset(set2)  # Checking if set1 is a superset of set2
 
+#Example: Managing a Dictionary of Server Configurations and Optimizing Retrieval
 server_config = {
     'server1': {'ip': '192.168.1.1', 'port': 8080, 'status': 'active'},
     'server2': {'ip': '192.168.1.2', 'port': 8000, 'status': 'inactive'},
@@ -24,3 +25,14 @@ def get_server_status(server_name):
 server_name = 'server2'
 status = get_server_status(server_name)
 print(f"{server_name} status: {status}")
+
+my_list = [1, 2, 2, 4]
+my_set = {1, 2, 3, 4, 5}
+
+# Lists
+if 3 in my_list:
+    print("3 is in the list")
+
+# Sets
+if 3 in my_set:
+    print("3 is in the set")
