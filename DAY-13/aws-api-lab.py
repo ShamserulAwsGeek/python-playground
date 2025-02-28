@@ -9,7 +9,7 @@ client = boto3.client('s3')
 # )
 
 response = client.get_bucket_acl(
-    Bucket='sham-s3-boto3-lab',
+    Bucket='shamserul-s3-boto3-lab',
     
 )
 
