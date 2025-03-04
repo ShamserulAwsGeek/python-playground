@@ -6,7 +6,7 @@ import json
 
 url = "https://shamserul1357.atlassian.net/rest/api/3/issue"
 
-auth = HTTPBasicAuth("example@.com", "")
+auth = HTTPBasicAuth("Example@gmail.com", "")
 
 headers = {
   "Accept": "application/json",
@@ -36,11 +36,9 @@ payload = json.dumps( {
     },
     
     "project": {
-      "key": "Jira-GitHub-Automation"
+      "key": "SCRUM"
     },
-    "summary": "first jira ticket",
-    
-    
+    "summary": "first jira ticket",   
   },
   "update": {}
 } )
