@@ -2,7 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/') #this is decorator to route the URL to the function
+@app.route('/') #this is decorator to route the URL to the function below it
 def hello_world():
     return 'Hello, World!'
 
